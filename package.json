@@ -1,0 +1,11 @@
+{
+  "name": "woff2sfnt-sfnt2woff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tbjgolden/woff2sfnt-sfnt2woff.git",
+  "author": "Tom Golden <tbjgolden@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pako": "^1.0.11"
+  }
+}
