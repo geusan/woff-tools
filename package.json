@@ -2,7 +2,7 @@
   "name": "woff-tools",
   "version": "0.1.0",
   "main": "index.js",
-  "repository": "https://github.com/tbjgolden/woff2sfnt-sfnt2woff.git",
+  "repository": "https://github.com/tbjgolden/woff-tools.git",
   "author": "Onur Demiralay",
   "contributors": [
     {
