@@ -4,9 +4,8 @@
  *
  * woff2sfnt converter
  */
-
-var fs = require('fs');
-var woff2sfntConverter = require('./index.js').toSfnt;
-var input = fs.readFileSync(process.argv[2]);
-var woff = new Buffer(input);
-fs.writeFileSync(process.argv[3], woff2sfntConverter(woff));
+const fs = require("fs");
+fs.writeFileSync(
+  process.argv[3],
+  require("./index.js").toSfnt(fs.readFileSync(process.argv[2]))
+);

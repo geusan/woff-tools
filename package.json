@@ -1,9 +1,16 @@
 {
-  "name": "woff2sfnt-sfnt2woff",
-  "version": "1.0.0",
+  "name": "woff-tools",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "https://github.com/tbjgolden/woff2sfnt-sfnt2woff.git",
-  "author": "Tom Golden <tbjgolden@gmail.com>",
+  "author": "Onur Demiralay",
+  "contributors": [
+    {
+      "name": "Tom Golden",
+      "email": "github@tbjgolden.com",
+      "url": "https://tom.bio"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "pako": "^1.0.11"
